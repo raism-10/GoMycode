@@ -1,51 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Mon Portfolio</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+          rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+          href="styles.css">
+
 </head>
 
 <body>
 
-    <!-- Navbar -->
+    <!-- NAVBAR -->
     <header class="navbar">
 
-        <h1 class="logo">MyPortfolio</h1>
+        <h1 class="logo">
+            MyPortfolio
+        </h1>
 
         <nav>
+
             <ul class="nav-links">
 
-                <li><a href="#home">Home</a></li>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
 
-                <li><a href="#about">About</a></li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
 
-                <li><a href="#work">Work</a></li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
 
-                <li><a href="#resume">Resume</a></li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
 
-                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
 
             </ul>
+
         </nav>
+
     </header>
 
-    <!-- Home -->
-    <section id="home" class="hero">
+    <!-- HOME -->
+    <section id="home"
+             class="hero">
 
-        <h1>Bienvenue dans mon portfolio</h1>
+        <h1>
+            Bienvenue dans mon Portfolio
+        </h1>
 
-        <p>Je suis développeur web débutant.</p>
+        <p>
+            Développeur Web & Passionné
+            d'Intelligence Artificielle
+        </p>
 
         <button class="btn">
             Découvrir
@@ -53,122 +84,216 @@
 
     </section>
 
-    <!-- About -->
-    <section id="about" class="section">
+    <!-- ABOUT -->
+    <section id="about"
+             class="section">
 
-        <h2>About Me</h2>
+        <h2>
+            About Me
+        </h2>
 
         <img src="photoprofile.JPG"
              alt="Photo Profil"
              class="profile-img">
 
         <p>
-            Je suis passionné par le développement web
-            et l'Intelligence Artificielle.
+            Je suis passionné par le développement web,
+            le design moderne et l'Intelligence Artificielle.
+            J'aime créer des interfaces élégantes et interactives.
         </p>
 
-        <h3>Mes compétences</h3>
+        <br>
+
+        <h3>
+            Mes compétences
+        </h3>
 
         <ul class="skills">
 
             <li>HTML</li>
+
             <li>CSS</li>
+
             <li>JavaScript</li>
+
+            <li>Responsive Design</li>
 
         </ul>
 
     </section>
 
-    <!-- Work -->
-    <section id="work" class="section">
+    <!-- WORK -->
+    <section id="work"
+             class="section">
 
-        <h2>My Work</h2>
+        <h2>
+            My Projects
+        </h2>
 
+        <!-- CARDS -->
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>
+                    Portfolio Website
+                </h3>
+
+                <p>
+                    Création d'un portfolio moderne
+                    avec HTML et CSS.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    AI Project
+                </h3>
+
+                <p>
+                    Projet orienté Intelligence
+                    Artificielle et automatisation.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Responsive Website
+                </h3>
+
+                <p>
+                    Site web adaptatif pour mobile,
+                    tablette et ordinateur.
+                </p>
+
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <!-- TABLE -->
         <table class="project-table">
 
             <tr>
-                <th>Projet</th>
-                <th>Technologie</th>
+
+                <th>
+                    Projet
+                </th>
+
+                <th>
+                    Technologie
+                </th>
+
             </tr>
 
             <tr>
-                <td>Portfolio</td>
-                <td>HTML</td>
+
+                <td>
+                    Portfolio
+                </td>
+
+                <td>
+                    HTML / CSS
+                </td>
+
             </tr>
 
             <tr>
-                <td>Site Web</td>
-                <td>CSS</td>
+
+                <td>
+                    Website
+                </td>
+
+                <td>
+                    Responsive Design
+                </td>
+
             </tr>
 
         </table>
 
-        <br>
+        <br><br>
 
-        <!-- Video -->
-        <video class="video" width="320" height="240" controls>
+        <!-- VIDEO -->
+        <video class="video"
+               width="400"
+               controls>
 
-            <source src="video.mp4" type="video/mp4">
+            <source src="video.mp4"
+                    type="video/mp4">
 
         </video>
 
     </section>
 
-    <!-- Resume -->
-    <section id="resume" class="section">
+    <!-- RESUME -->
+    <section id="resume"
+             class="section">
 
-        <h2>Resume</h2>
+        <h2>
+            Resume
+        </h2>
 
         <p>
-            Étudiant en développement web chez GOMYCODE.
+            Étudiant en développement web
+            chez GOMYCODE.
         </p>
 
-        <!-- Audio -->
-        <audio controls class="audio">
+        <br>
 
-            <source src="audio.mp3" type="audio/mpeg">
+        <!-- AUDIO -->
+        <audio controls
+               class="audio">
+
+            <source src="audio.mp3"
+                    type="audio/mpeg">
 
         </audio>
 
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="section">
+    <!-- CONTACT -->
+    <section id="contact"
+             class="section">
 
-        <h2>Contact Me</h2>
+        <h2>
+            Contact Me
+        </h2>
 
         <form class="contact-form">
 
-            <label>Nom :</label>
+            <input type="text"
+                   placeholder="Votre nom">
 
-            <input type="text" placeholder="Votre nom">
+            <input type="email"
+                   placeholder="Votre email">
 
-            <br><br>
+            <textarea cols="30"
+                      rows="5"
+                      placeholder="Votre message"></textarea>
 
-            <label>Email :</label>
+            <button type="submit"
+                    class="btn">
 
-            <input type="email" placeholder="Votre email">
-
-            <br><br>
-
-            <label>Message :</label><br>
-
-            <textarea cols="30" rows="5"></textarea>
-
-            <br><br>
-
-            <button type="submit" class="btn">
                 Envoyer
+
             </button>
 
         </form>
 
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer class="footer">
 
-        <p>© 2026 Mon Portfolio</p>
+        <p>
+            © 2026 Mon Portfolio | Designed with ❤️
+        </p>
 
     </footer>
 
