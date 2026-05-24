@@ -6,109 +6,170 @@
 
     <title>Mon Portfolio</title>
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <!-- Navbar -->
-    <header>
+    <header class="navbar">
+
+        <h1 class="logo">MyPortfolio</h1>
+
         <nav>
-            <a href="#home">Home</a> |
-            <a href="#about">About</a> |
-            <a href="#work">Work</a> |
-            <a href="#resume">Resume</a> |
-            <a href="#contact">Contact</a>
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#work">Work</a></li>
+
+                <li><a href="#resume">Resume</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
         </nav>
     </header>
 
     <!-- Home -->
-    <section id="home">
+    <section id="home" class="hero">
+
         <h1>Bienvenue dans mon portfolio</h1>
+
         <p>Je suis développeur web débutant.</p>
+
+        <button class="btn">
+            Découvrir
+        </button>
+
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="about" class="section">
+
         <h2>About Me</h2>
-        <img src="photoprofile.JPG" alt="Photo Profil">
-        <p>Je suis passionné par le développement web et  Intelligence Artificielle </p>
+
+        <img src="photoprofile.JPG"
+             alt="Photo Profil"
+             class="profile-img">
+
+        <p>
+            Je suis passionné par le développement web
+            et l'Intelligence Artificielle.
+        </p>
 
         <h3>Mes compétences</h3>
-        <ul>
+
+        <ul class="skills">
+
             <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
 
         </ul>
+
     </section>
 
     <!-- Work -->
-    <section id="work">
+    <section id="work" class="section">
+
         <h2>My Work</h2>
 
-        <table border="1">
+        <table class="project-table">
+
             <tr>
                 <th>Projet</th>
                 <th>Technologie</th>
             </tr>
+
             <tr>
                 <td>Portfolio</td>
                 <td>HTML</td>
             </tr>
+
             <tr>
                 <td>Site Web</td>
                 <td>CSS</td>
             </tr>
+
         </table>
 
         <br>
 
         <!-- Video -->
-        <video width="320" height="240" controls>
+        <video class="video" width="320" height="240" controls>
+
             <source src="video.mp4" type="video/mp4">
-            <source src="video.mp4" type="video/ogg">
-            <source src="video.mp4" type="video/webm">
+
         </video>
+
     </section>
 
     <!-- Resume -->
-    <section id="resume">
+    <section id="resume" class="section">
+
         <h2>Resume</h2>
-        <p>Étudiant en développement web chez GOMYCODE.</p>
+
+        <p>
+            Étudiant en développement web chez GOMYCODE.
+        </p>
 
         <!-- Audio -->
-        <audio controls>
-            <source src="audio.mp3" type="audio/wav"
+        <audio controls class="audio">
+
             <source src="audio.mp3" type="audio/mpeg">
-              <source src="audio.mp3" type="audio/ogg"
+
         </audio>
+
     </section>
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="section">
+
         <h2>Contact Me</h2>
 
-        <form>
+        <form class="contact-form">
+
             <label>Nom :</label>
+
             <input type="text" placeholder="Votre nom">
 
             <br><br>
 
             <label>Email :</label>
+
             <input type="email" placeholder="Votre email">
 
             <br><br>
 
             <label>Message :</label><br>
+
             <textarea cols="30" rows="5"></textarea>
 
             <br><br>
 
-            <button type="submit">Envoyer</button>
+            <button type="submit" class="btn">
+                Envoyer
+            </button>
+
         </form>
+
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
+
         <p>© 2026 Mon Portfolio</p>
+
     </footer>
 
 </body>
